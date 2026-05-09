@@ -4,233 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags -->
-    <title>Chadi Ait Ekioui - Engineering Student | AI & Machine Learning Portfolio</title>
-    <meta name="description" content="Portfolio of Chadi Ait Ekioui, Engineering Student at Télécom SudParis (IP Paris). Specialized in AI, Machine Learning, and Data Science. Research experience at University of Cambridge. Projects: ContextMaker, Synapses, Natural Disaster Prediction.">
-    <meta name="keywords" content="Chadi Ait Ekioui, Engineering Student, AI, Machine Learning, Data Science, Télécom SudParis, IP Paris, Cambridge University, Portfolio">
-    <meta name="author" content="Chadi Ait Ekioui">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Chadi Ait Ekioui - Engineering Student Portfolio">
-    <meta property="og:description" content="Portfolio of Chadi Ait Ekioui, Engineering Student specialized in AI, Machine Learning, and Data Science.">
-    <meta property="og:url" content="https://chadiaitekioui.github.io/site/">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Chadi Ait Ekioui - Engineering Student Portfolio">
-    <meta name="twitter:description" content="Portfolio of Chadi Ait Ekioui, Engineering Student specialized in AI, Machine Learning, and Data Science.">
-    
     <!-- Canonical URL -->
     <link rel="canonical" href="https://chadiaitekioui.github.io/site/">
     
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header with navigation -->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#publications" class="nav__link">Publications</a>
-                    </li>
-                </ul>
-                <div class="nav__close" id="nav-close">
-                    <span>&times;</span>
-                </div>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Home/Hero Section -->
+    <!-- Presentation + publications (split) -->
     <section class="hero" id="home">
         <div class="hero__container container">
-            <div class="hero__content">
-                <h1 class="hero__title">Hi, I'm <span class="hero__name">Chadi Ait Ekioui</span></h1>
-                <p class="hero__subtitle">Engineering Student</p>
-                <div class="about__content">
-                    <p class="about__text">
-                        I am an engineering student at Télécom SudParis, pursuing a Master of Science degree 
-                        with a focus on Artificial Intelligence, Machine Learning, and Data Science. My academic 
-                        journey has taken me from the rigorous Classe Préparatoire aux Grandes Écoles at Lycée 
-                        Saint-Louis in Paris to international research experiences at prestigious institutions.
-                    </p>
-                    <p class="about__text">
-                        My research experience includes working as a Visiting Student at the Cavendish 
-                        Laboratory, University of Cambridge, where I developed ContextMaker, a Python package for 
-                        LLM-ready documentation to accelerate discovery in cosmology. I also contributed to an ICML 
-                        2025 article and created Synapses, a platform to query top cosmology Python libraries.
-                    </p>
-                    <p class="about__text">
-                        Beyond academics, I serve as Vice President of INTOSPACE, the Aerospace and Astronomy Club 
-                        at Télécom SudParis (IP Paris), leading participation in national competitions from CNES and Planète Sciences, 
-                        where we won a prize. I'm also passionate about humanitarian work, having served as a Board Member of the Humanitarian 
-                        Association at Télécom SudParis.
-                    </p>
-                    <div class="hero__buttons">
-                        <a href="#projects" class="btn btn--primary">View my projects</a>
-                        <a href="#publications" class="btn btn--secondary">View publications</a>
-                    </div>
-                    <div class="about__education">
-                        <h3 class="about__skills-title">Education</h3>
-                        <div class="education__item">
-                            <h4>Télécom SudParis</h4>
-                            <p><strong>Master of Science</strong> | September 2024 — Present | Évry, France</p>
-                            <p>Relevant Coursework: AI, Machine Learning, Deep Learning, Data Science, Programming, Mathematics</p>
-                        </div>
-                        <div class="education__item">
-                            <h4>Dublin City University</h4>
-                            <p><strong>Exchange Semester</strong> | September 2025 — January 2026 | Dublin, Ireland</p>
-                            <p>Relevant Coursework: AI & Machine Learning, Data Science & Analytics, Programming & Software Development</p>
-                        </div>
-                        <div class="education__item">
-                            <h4>Lycée Saint-Louis</h4>
-                            <p><strong>Classe Préparatoire aux Grandes Écoles</strong> | September 2022 — July 2024 | Paris VI, France</p>
-                            <p>Selective STEM program focused on advanced mathematics, physics, and engineering</p>
-                        </div>
-                    </div>
-                    <div class="about__skills">
-                        <h3 class="about__skills-title">Skills</h3>
-                        <div class="skills__list">
-                            <span class="skill__tag">Python</span>
-                            <span class="skill__tag">Java</span>
-                            <span class="skill__tag">Git/GitHub</span>
-                            <span class="skill__tag">Machine Learning</span>
-                            <span class="skill__tag">Pandas</span>
-                            <span class="skill__tag">Scikit-Learn</span>
-                            <span class="skill__tag">SQL</span>
-                            <span class="skill__tag">Docker</span>
-                            <span class="skill__tag">Google Cloud Platform</span>
-                            <span class="skill__tag">Deep Learning</span>
-                            <span class="skill__tag">Data Science</span>
-                            <span class="skill__tag">JavaFX</span>
+            <div class="intro-split">
+                <div class="intro-split__main">
+                    <h1 class="hero__title">Hi, I'm <span class="hero__name">Chadi Ait Ekioui</span></h1>
+                    <p class="hero__description">As a student researcher in AI for Science, I am eager to explore the vast potential at the intersection of computer science and scientific discovery.</p>
+                    <div class="about__content">
+                        <p class="about__text">
+                            I am currently an engineering student at Télécom SudParis (IP Paris), pursuing a Master of Science degree with a focus on Artificial Intelligence, Machine Learning, and Data Science.
+                        </p>
+                        <p class="about__text">
+                            My research experience includes working as a Visiting Student at the Cavendish Laboratory, University of Cambridge, where I worked on CMBAgents, a project to develop a planning and control system for autonomous scientific discovery.
+                            I also worked on a RAG pipeline for medical data analysis at EPFL, where I implemented multimodal features and an LLM-as-a-judge approach for pipeline evaluation.
+                        </p>
+                        <p class="about__text">
+                            Beyond academics, I serve as Vice President of INTOSPACE, the Aerospace and Astronomy Club at Télécom SudParis, leading participation in national competitions from CNES and Planète Sciences. 
+                            I'm also passionate about neuroscience and space exploration.
+                        </p>
+                        <div class="about__education">
+                            <h3 class="about__education-title">Education</h3>
+                            <div class="education-timeline-scroll">
+                            <ol class="education-timeline education-timeline--horizontal">
+                                <li class="education-timeline__item">
+                                    <span class="education-timeline__dates">Sep 2022 — Jul 2024</span>
+                                    <span class="education-timeline__school">Lycée Saint-Louis</span>
+                                    <span class="education-timeline__degree">Classe Préparatoire aux Grandes Écoles</span>
+                                </li>
+                                <li class="education-timeline__item">
+                                    <span class="education-timeline__dates">Sep 2024 — Present</span>
+                                    <span class="education-timeline__school">Télécom SudParis</span>
+                                    <span class="education-timeline__degree">Master of Science</span>
+                                </li>
+                                <li class="education-timeline__item">
+                                    <span class="education-timeline__dates">Sep 2025 — Jan 2026</span>
+                                    <span class="education-timeline__school">Dublin City University</span>
+                                    <span class="education-timeline__degree">Exchange Semester</span>
+                                </li>
+                                <li class="education-timeline__item">
+                                    <span class="education-timeline__dates">2026 — 2027</span>
+                                    <span class="education-timeline__school">University of Cambridge</span>
+                                    <span class="education-timeline__degree">MPhil in Data Intensive Science</span>
+                                </li>
+                            </ol>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <aside class="intro-split__aside" aria-label="Publications">
+                    <h2 class="intro-split__aside-title">Publications</h2>
+                    <div class="publications__container publications__container--sidebar">
+                        <div class="publication__item">
+                            <h3 class="publication__title">Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery</h3>
+                            <p class="publication__authors">
+                                Xu, L., Sarkar, M., Lonappan, A.I., Zubeldia, I., Villanueva-Domingo, P.,... <strong>Ait Ekioui, C.</strong>, Boris, B. et al. (2025)
+                            </p>
+                            <p class="publication__venue">
+                                <strong>ICML 2025</strong> - International Conference on Machine Learning, Vancouver | arXiv preprint
+                            </p>
+                            <p class="publication__description">
+                                This paper presents an open-source planning and control system that leverages language agents for 
+                                autonomous scientific discovery. The work was developed during my research at the Cavendish Laboratory, 
+                                University of Cambridge, and represents a significant contribution to AI for Science research.
+                            </p>
+                            <div class="publication__links">
+                                <a href="https://arxiv.org/abs/2507.07257" class="publication__link" target="_blank">View on arXiv</a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects -->
     <section class="projects section" id="projects">
         <div class="container">
-            <h2 class="section__title">My Projects</h2>
+            <h2 class="section__title section__title--left">My Projects</h2>
             <div class="projects__container">
-                <!-- Project 1: Natural Disaster Damage Prediction -->
+                <!-- NOAA -->
                 <div class="project__card">
                     <div class="project__image">
-                        <img src="noaa.jpg" alt="Natural Disaster Damage Prediction Project" class="project__img">
+                        <img src="noaa.jpg" alt="Natural Disaster Damage Prediction" class="project__img" loading="lazy">
+                        <div class="project__image-overlay">
+                            <a href="NOAA.pdf" class="project__link-overlay" target="_blank" rel="noopener noreferrer">PDF</a>
+                        </div>
                     </div>
                     <div class="project__content">
+                        <p class="project__date">Sep 2025 — Dec 2025 · Dublin, Ireland</p>
                         <h3 class="project__title">Natural Disaster Damage Prediction</h3>
                         <p class="project__description">
-                            Data Science and Machine Learning project analyzing NOAA datasets to predict potential 
-                            economic and human damage from natural disasters. Built and evaluated multiple machine 
-                            learning models using Python, Pandas, and Scikit-learn to analyze patterns and make 
-                            accurate predictions.
+                            NOAA-based ML models to estimate economic and human damage from natural disasters (Python, Pandas, Scikit-learn).
                         </p>
                         <div class="project__tags">
                             <span class="project__tag">Python</span>
-                            <span class="project__tag">Pandas</span>
-                            <span class="project__tag">Scikit-learn</span>
-                            <span class="project__tag">Machine Learning</span>
+                            <span class="project__tag">ML</span>
                             <span class="project__tag">Data Science</span>
                         </div>
-                        <div class="project__links">
-                            <a href="NOAA.pdf" class="project__link" target="_blank">View PDF</a>
-                        </div>
-                        <p class="project__date">September 2025 — December 2025 | Dublin, Ireland</p>
                     </div>
                 </div>
 
-                <!-- Project 3: ContextMaker -->
+                <!-- ContextMaker -->
                 <div class="project__card">
                     <div class="project__image">
-                        <img src="contextmaker.png" alt="ContextMaker Project" class="project__img project__img--contextmaker">
+                        <img src="contextmaker.png" alt="ContextMaker" class="project__img project__img--contextmaker" loading="lazy">
+                        <div class="project__image-overlay">
+                            <a href="https://github.com/CMBAgents/contextmaker" class="project__link-overlay" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
                     </div>
                     <div class="project__content">
-                        <h3 class="project__title">ContextMaker - LLM-ready Documentation</h3>
+                        <p class="project__date">Jun 2025 — Aug 2025 · Cambridge, UK</p>
+                        <h3 class="project__title">ContextMaker</h3>
                         <p class="project__description">
-                            Developed a Python package for generating LLM-ready documentation to accelerate discovery 
-                            in cosmology. This tool was created during my research at the Cavendish Laboratory, University 
-                            of Cambridge, and contributed to an ICML 2025 article. ContextMaker helps researchers 
-                            efficiently prepare documentation for Large Language Model interactions.
+                            Python package for LLM-ready scientific documentation (Cavendish Laboratory); linked to ICML 2025 work on CMBAgents.
                         </p>
                         <div class="project__tags">
                             <span class="project__tag">Python</span>
                             <span class="project__tag">LLM</span>
-                            <span class="project__tag">Documentation</span>
-                            <span class="project__tag">Scientific Computing</span>
+                            <span class="project__tag">Cosmology</span>
                         </div>
-                        <div class="project__links">
-                            <a href="https://github.com/CMBAgents/contextmaker" class="project__link" target="_blank">View on GitHub</a>
-                        </div>
-                        <p class="project__date">June 2025 — August 2025 | Cambridge, UK</p>
                     </div>
                 </div>
 
-                <!-- Project 4: Synapses -->
+                <!-- Synapses -->
                 <div class="project__card">
                     <div class="project__image">
-                        <img src="synapse.png" alt="Synapses Project" class="project__img">
+                        <img src="synapse.png" alt="Synapses" class="project__img" loading="lazy">
+                        <div class="project__image-overlay">
+                            <a href="https://github.com/CMBAgents/synapses" class="project__link-overlay" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
                     </div>
                     <div class="project__content">
-                        <h3 class="project__title">Synapses - Scientific Library Query Platform</h3>
+                        <p class="project__date">Jun 2025 — Aug 2025 · Cambridge, UK</p>
+                        <h3 class="project__title">Synapses</h3>
                         <p class="project__description">
-                            Created Synapses, a web platform to query the top 100 cosmology Python libraries and interact 
-                            with AI models across multiple scientific domains. This project enables researchers to efficiently 
-                            discover and explore scientific libraries while leveraging AI capabilities for enhanced research workflows.
+                            Web platform to query major cosmology Python libraries with AI-assisted workflows for researchers.
                         </p>
                         <div class="project__tags">
                             <span class="project__tag">Python</span>
-                            <span class="project__tag">Web Development</span>
-                            <span class="project__tag">AI Integration</span>
-                            <span class="project__tag">Scientific Libraries</span>
+                            <span class="project__tag">Web</span>
+                            <span class="project__tag">AI</span>
                         </div>
-                        <div class="project__links">
-                            <a href="https://github.com/CMBAgents/synapses" class="project__link" target="_blank">View on GitHub</a>
-                        </div>
-                        <p class="project__date">June 2025 — August 2025 | Cambridge, UK</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Publications Section -->
-    <section class="publications section" id="publications">
-        <div class="container">
-            <h2 class="section__title">Publications</h2>
-            <div class="publications__container">
-                <div class="publication__item">
-                    <h3 class="publication__title">Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery</h3>
-                    <p class="publication__authors">
-                        Xu, L., Sarkar, M., Lonappan, A.I., Zubeldia, I., Villanueva-Domingo, P.,... <strong>Ait Ekioui, C.</strong>, Boris, B. et al. (2025)
-                    </p>
-                    <p class="publication__venue">
-                        <strong>ICML 2025</strong> - International Conference on Machine Learning, Vancouver | arXiv preprint
-                    </p>
-                    <p class="publication__description">
-                        This paper presents an open-source planning and control system that leverages language agents for 
-                        autonomous scientific discovery. The work was developed during my research at the Cavendish Laboratory, 
-                        University of Cambridge, and represents a significant contribution to AI for Science research.
-                    </p>
-                    <div class="publication__links">
-                        <a href="https://arxiv.org/abs/2507.07257" class="publication__link" target="_blank">View on arXiv</a>
+                <!-- MMORE — EPFL (rightmost in grid) -->
+                <div class="project__card">
+                    <div class="project__image">
+                        <img src="mmore_logo.jpg" alt="MMORE — multimodal RAG pipeline at EPFL" class="project__img project__img--mmore" loading="lazy">
+                        <div class="project__image-overlay">
+                            <a href="https://github.com/swiss-ai/mmore" class="project__link-overlay" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project__content">
+                        <p class="project__date">2026 · EPFL, Switzerland</p>
+                        <h3 class="project__title">MMORE</h3>
+                        <p class="project__description">
+                            Multimodal open RAG & extraction pipeline at EPFL (Swiss AI Lab): unified ingestion, hybrid retrieval, medical QA — including contributions to the RAG stack.
+                        </p>
+                        <div class="project__tags">
+                            <span class="project__tag">Python</span>
+                            <span class="project__tag">RAG</span>
+                            <span class="project__tag">EPFL</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -251,7 +194,6 @@
         </div>
     </footer>
 
-    <!-- Script JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
