@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Denario">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="320" fill="url(#bg)"/>
+  <circle cx="118" cy="160" r="46" fill="none" stroke="#111" stroke-width="3"/>
+  <circle cx="118" cy="160" r="10" fill="#111"/>
+  <circle cx="92" cy="138" r="5" fill="#111"/>
+  <circle cx="148" cy="138" r="5" fill="#111"/>
+  <circle cx="92" cy="182" r="5" fill="#111"/>
+  <circle cx="148" cy="182" r="5" fill="#111"/>
+  <line x1="108" y1="160" x2="92" y2="138" stroke="#111" stroke-width="2"/>
+  <line x1="128" y1="160" x2="148" y2="138" stroke="#111" stroke-width="2"/>
+  <line x1="108" y1="160" x2="92" y2="182" stroke="#111" stroke-width="2"/>
+  <line x1="128" y1="160" x2="148" y2="182" stroke="#111" stroke-width="2"/>
+  <text x="190" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="#111">Denario</text>
+  <text x="192" y="198" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" letter-spacing="0.08em" fill="#555">AI AGENTS FOR SCIENCE</text>
+</svg>

@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Canonical URL -->
+    <title>Chadi Ait Ekioui — Freelance AI for Science | Cambridge</title>
+    <meta name="description" content="Freelance researcher and engineer building agentic AI, LLMs, and systems for neuroscience and medicine.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Chadi Ait Ekioui — Freelance AI for Science">
+    <meta property="og:description" content="Freelance work on agentic AI, LLMs, neuroscience, and medicine.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chadiaitekioui.github.io/site/">
     <link rel="canonical" href="https://chadiaitekioui.github.io/site/">
-    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="site-banner">
+        <div class="container">
+            <div class="site-banner__content">
+                <p class="site-banner__text">&copy; 2026 Chadi Ait Ekioui. Available for freelance collaborations.</p>
+                <div class="site-banner__social">
+                    <a href="https://www.linkedin.com/in/chadi-aat/" class="site-banner__link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://github.com/chadiaitekioui" class="site-banner__link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+                    <a href="mailto:chadi.ait_ekioui@telecom-sudparis.eu" class="site-banner__link" aria-label="Email">Email</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Presentation + publications (split) -->
     <section class="hero" id="home">
         <div class="hero__container container">
             <div class="intro-split">
                 <div class="intro-split__main">
                     <h1 class="hero__title">Hi, I'm <span class="hero__name">Chadi Ait Ekioui</span></h1>
-                    <p class="hero__description">As a student researcher in AI for Science, I am eager to explore the vast potential at the intersection of computer science and scientific discovery.</p>
+                    <p class="hero__description">Freelance researcher and engineer building agentic AI, LLMs, and systems for neuroscience and medicine.</p>
                     <div class="about__content">
                         <p class="about__text">
-                            I am currently an engineering student at Télécom SudParis (IP Paris), pursuing a Master of Science degree with a focus on Artificial Intelligence, Machine Learning, and Data Science.
+                            I am a freelance researcher and engineer building AI systems for scientific discovery. I design agentic architectures, fine-tune and evaluate LLMs, and ship research software used in real scientific workflows, from neuroscience literature forecasting to multi-agent research assistants for cancer research.
                         </p>
                         <p class="about__text">
-                            My research experience includes working as a Visiting Student at the Cavendish Laboratory, University of Cambridge, where I worked on CMBAgents, a project to develop a planning and control system for autonomous scientific discovery.
-                            I also worked on a RAG pipeline for medical data analysis at EPFL, where I implemented multimodal features and an LLM-as-a-judge approach for pipeline evaluation.
+                            Recent work includes freelance contributions to the <strong>Denario</strong> project at the University of Cambridge, a multi-agent AI assistant for end-to-end scientific research; <strong>Neurolink</strong> at ENS Ulm, forecasting emergent neuroscience directions from PubMed; CMBAgents at the Cavendish Laboratory (<strong>ICML 2025</strong>); and multimodal RAG for medical data at EPFL.
                         </p>
                         <p class="about__text">
-                            Beyond academics, I serve as Vice President of INTOSPACE, the Aerospace and Astronomy Club at Télécom SudParis, leading participation in national competitions from CNES and Planète Sciences. 
-                            I'm also passionate about neuroscience and space exploration.
+                            I bring production-minded engineering to research teams: clear pipelines, reproducible experiments, and systems that researchers can actually run. Open to freelance collaborations in agentic AI, LLMs, and data-intensive science.
                         </p>
                         <div class="about__education">
                             <h3 class="about__education-title">Education</h3>
@@ -62,7 +77,7 @@
                     <h2 class="intro-split__aside-title">Publications</h2>
                     <div class="publications__container publications__container--sidebar">
                         <div class="publication__item">
-                            <h3 class="publication__title">Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery</h3>
+                            <h3 class="publication__title">Open Source Planning &amp; Control System with Language Agents for Autonomous Scientific Discovery</h3>
                             <p class="publication__authors">
                                 Xu, L., Sarkar, M., Lonappan, A.I., Zubeldia, I., Villanueva-Domingo, P.,... <strong>Ait Ekioui, C.</strong>, Boris, B. et al. (2025)
                             </p>
@@ -70,12 +85,12 @@
                                 <strong>ICML 2025</strong> - International Conference on Machine Learning, Vancouver | arXiv preprint
                             </p>
                             <p class="publication__description">
-                                This paper presents an open-source planning and control system that leverages language agents for 
-                                autonomous scientific discovery. The work was developed during my research at the Cavendish Laboratory, 
-                                University of Cambridge, and represents a significant contribution to AI for Science research.
+                                Open-source planning and control system leveraging language agents for
+                                autonomous scientific discovery — developed during research at the Cavendish Laboratory,
+                                University of Cambridge.
                             </p>
                             <div class="publication__links">
-                                <a href="https://arxiv.org/abs/2507.07257" class="publication__link" target="_blank">View on arXiv</a>
+                                <a href="https://arxiv.org/abs/2507.07257" class="publication__link" target="_blank" rel="noopener noreferrer">View on arXiv</a>
                             </div>
                         </div>
                     </div>
@@ -87,75 +102,53 @@
     <!-- Projects -->
     <section class="projects section" id="projects">
         <div class="container">
-            <h2 class="section__title section__title--left">My Projects</h2>
+            <h2 class="section__title section__title--left">Selected Work</h2>
             <div class="projects__container">
-                <!-- NOAA -->
+                <!-- Denario — Cambridge freelance -->
                 <div class="project__card">
                     <div class="project__image">
-                        <img src="noaa.jpg" alt="Natural Disaster Damage Prediction" class="project__img" loading="lazy">
+                        <img src="denario.svg" alt="Denario — multi-agent AI for scientific discovery" class="project__img project__img--contain" loading="lazy">
                         <div class="project__image-overlay">
-                            <a href="NOAA.pdf" class="project__link-overlay" target="_blank" rel="noopener noreferrer">PDF</a>
+                            <a href="https://arxiv.org/abs/2510.26887" class="project__link-overlay" target="_blank" rel="noopener noreferrer">Paper</a>
                         </div>
                     </div>
                     <div class="project__content">
-                        <p class="project__date">Sep 2025 — Dec 2025 · Dublin, Ireland</p>
-                        <h3 class="project__title">Natural Disaster Damage Prediction</h3>
+                        <p class="project__date">2025 — Present · Freelance · Cambridge, UK</p>
+                        <h3 class="project__title">Denario</h3>
                         <p class="project__description">
-                            NOAA-based ML models to estimate economic and human damage from natural disasters (Python, Pandas, Scikit-learn).
+                            Freelance contribution at the University of Cambridge to Denario, a multi-agent AI system for end-to-end scientific discovery — hypothesis generation, analysis, and manuscript drafting.
                         </p>
                         <div class="project__tags">
-                            <span class="project__tag">Python</span>
-                            <span class="project__tag">ML</span>
-                            <span class="project__tag">Data Science</span>
+                            <span class="project__tag">Agentic AI</span>
+                            <span class="project__tag">LLMs</span>
+                            <span class="project__tag">Freelance</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- ContextMaker -->
+                <!-- Neurolink — ENS Ulm -->
                 <div class="project__card">
                     <div class="project__image">
-                        <img src="contextmaker.png" alt="ContextMaker" class="project__img project__img--contextmaker" loading="lazy">
+                        <img src="neurolink.png" alt="Neurolink — forecasting neuroscience research directions" class="project__img project__img--contain" loading="lazy">
                         <div class="project__image-overlay">
-                            <a href="https://github.com/CMBAgents/contextmaker" class="project__link-overlay" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/chadiaitekioui/Neurolink" class="project__link-overlay" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </div>
                     </div>
                     <div class="project__content">
-                        <p class="project__date">Jun 2025 — Aug 2025 · Cambridge, UK</p>
-                        <h3 class="project__title">ContextMaker</h3>
+                        <p class="project__date">ENS Ulm, Paris</p>
+                        <h3 class="project__title">Neurolink</h3>
                         <p class="project__description">
-                            Python package for LLM-ready scientific documentation (Cavendish Laboratory); linked to ICML 2025 work on CMBAgents.
+                            Modular pipeline to forecast emergent neuroscience research directions from PubMed literature — temporal LoRA on Mistral-7B, benchmarked against BrainGPT.
                         </p>
                         <div class="project__tags">
-                            <span class="project__tag">Python</span>
-                            <span class="project__tag">LLM</span>
-                            <span class="project__tag">Cosmology</span>
+                            <span class="project__tag">Neuroscience</span>
+                            <span class="project__tag">LoRA</span>
+                            <span class="project__tag">LLMs</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Synapses -->
-                <div class="project__card">
-                    <div class="project__image">
-                        <img src="synapse.png" alt="Synapses" class="project__img" loading="lazy">
-                        <div class="project__image-overlay">
-                            <a href="https://github.com/CMBAgents/synapses" class="project__link-overlay" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        </div>
-                    </div>
-                    <div class="project__content">
-                        <p class="project__date">Jun 2025 — Aug 2025 · Cambridge, UK</p>
-                        <h3 class="project__title">Synapses</h3>
-                        <p class="project__description">
-                            Web platform to query major cosmology Python libraries with AI-assisted workflows for researchers.
-                        </p>
-                        <div class="project__tags">
-                            <span class="project__tag">Python</span>
-                            <span class="project__tag">Web</span>
-                            <span class="project__tag">AI</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- MMORE — EPFL (rightmost in grid) -->
+                <!-- MMORE — EPFL -->
                 <div class="project__card">
                     <div class="project__image">
                         <img src="mmore_logo.jpg" alt="MMORE — multimodal RAG pipeline at EPFL" class="project__img project__img--mmore" loading="lazy">
@@ -167,7 +160,7 @@
                         <p class="project__date">2026 · EPFL, Switzerland</p>
                         <h3 class="project__title">MMORE</h3>
                         <p class="project__description">
-                            Multimodal open RAG & extraction pipeline at EPFL (Swiss AI Lab): unified ingestion, hybrid retrieval, medical QA — including contributions to the RAG stack.
+                            Multimodal open RAG &amp; extraction pipeline at EPFL (Swiss AI Lab): unified ingestion, hybrid retrieval, medical QA — including contributions to the RAG stack.
                         </p>
                         <div class="project__tags">
                             <span class="project__tag">Python</span>
@@ -176,23 +169,32 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <p class="footer__text">&copy; 2024 Chadi Ait Ekioui. All rights reserved.</p>
-                <div class="footer__social">
-                    <a href="https://www.linkedin.com/in/chadi-aat/" class="footer__link" target="_blank" aria-label="LinkedIn">LinkedIn</a>
-                    <a href="https://github.com/chadiaitekioui" class="footer__link" target="_blank" aria-label="GitHub">GitHub</a>
-                    <a href="mailto:chadi.ait_ekioui@telecom-sudparis.eu" class="footer__link" aria-label="Email">Email</a>
+                <!-- CMBAgents — ContextMaker + Synapses -->
+                <div class="project__card">
+                    <div class="project__image">
+                        <img src="contextmaker.png" alt="CMBAgents — ContextMaker and Synapses" class="project__img project__img--contextmaker" loading="lazy">
+                        <div class="project__image-overlay">
+                            <a href="https://github.com/CMBAgents/contextmaker" class="project__link-overlay" target="_blank" rel="noopener noreferrer">ContextMaker</a>
+                            <a href="https://github.com/CMBAgents/synapses" class="project__link-overlay" target="_blank" rel="noopener noreferrer">Synapses</a>
+                        </div>
+                    </div>
+                    <div class="project__content">
+                        <p class="project__date">Jun 2025 — Aug 2025 · Cambridge, UK</p>
+                        <h3 class="project__title">CMBAgents</h3>
+                        <p class="project__description">
+                            Cavendish Laboratory work linked to ICML 2025: ContextMaker (LLM-ready scientific documentation) and Synapses (AI-assisted querying of cosmology Python libraries).
+                        </p>
+                        <div class="project__tags">
+                            <span class="project__tag">Agentic AI</span>
+                            <span class="project__tag">LLM</span>
+                            <span class="project__tag">ICML 2025</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
 
     <script src="script.js"></script>
 </body>

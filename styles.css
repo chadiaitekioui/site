@@ -110,7 +110,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: calc(100vh - 3.5rem);
     background: var(--color-white);
     padding: var(--spacing-md) 0;
 }
@@ -447,7 +447,8 @@ body {
     object-position: left center;
 }
 
-.project__img--mmore {
+.project__img--mmore,
+.project__img--contain {
     object-fit: contain;
     object-position: center;
     padding: var(--spacing-xs);
@@ -689,16 +690,16 @@ body {
 }
 
 /* ============================================
-   FOOTER
+   SITE BANNER (top)
    ============================================ */
 
-.footer {
+.site-banner {
     background-color: var(--color-text);
     color: var(--color-white);
-    padding: var(--spacing-md) 0;
+    padding: var(--spacing-sm) 0;
 }
 
-.footer__content {
+.site-banner__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -706,23 +707,25 @@ body {
     gap: var(--spacing-sm);
 }
 
-.footer__text {
+.site-banner__text {
     margin: 0;
+    font-size: 0.9rem;
 }
 
-.footer__social {
+.site-banner__social {
     display: flex;
     gap: var(--spacing-md);
 }
 
-.footer__link {
+.site-banner__link {
     color: var(--color-white);
     text-decoration: none;
     transition: var(--transition);
+    font-size: 0.9rem;
 }
 
-.footer__link:hover {
-    color: var(--color-primary-light);
+.site-banner__link:hover {
+    opacity: 0.75;
 }
 
 /* ============================================
@@ -776,8 +779,7 @@ body {
         grid-template-columns: 1fr;
     }
     
-    /* Footer mobile */
-    .footer__content {
+    .site-banner__content {
         flex-direction: column;
         text-align: center;
     }
