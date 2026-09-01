@@ -405,6 +405,14 @@ body {
     padding: var(--spacing-lg) 0 var(--spacing-xl);
 }
 
+.projects__intro {
+    max-width: 52rem;
+    margin: calc(-1 * var(--spacing-sm)) 0 var(--spacing-md);
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
 .projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
